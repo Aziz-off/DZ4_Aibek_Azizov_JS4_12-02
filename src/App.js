@@ -9,6 +9,7 @@ function App() {
   return (
     <div>
         <Users users={users}/>
+
         <UsersData />
     </div>
   );

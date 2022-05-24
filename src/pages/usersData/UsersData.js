@@ -20,7 +20,7 @@ class UsersData extends React.Component {
 
     render() {
         return (
-            <div style={{marginBottom: "100px"}}>
+            <div style={{marginBottom: "00px"}}>
 
                 <form>
                     <input type="text" value={this.state.value} onChange={this.changeValue}/>
