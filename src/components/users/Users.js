@@ -8,7 +8,7 @@ function Users (props) {
             {
                 props.users.map((user, key) => {
                     return (
-                        <li style={{marginBottom: "30px"}} key={key}>{user}</li>
+                        <li style={{marginBottom: "35px"}} key={key}>{user}</li>
                     )
                 })
             }

@@ -8,15 +8,14 @@ class UsersData extends React.Component {
         this.sendData = this.sendData.bind(this);
     }
 
-    changeValue (e) {
-        this.setState({value: e.target.value});
-    }
-
     sendData (e) {
         e.preventDefault();
         console.log(this.state);
     }
 
+    changeValue (e) {
+        this.setState({value: e.target.value});
+    }
 
     render() {
         return (
